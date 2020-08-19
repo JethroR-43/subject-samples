@@ -1,0 +1,144 @@
+/*General Page Style*/
+*{
+  font-family: 'Roboto', sans-serif;
+}
+/*General Page Style*/
+
+
+/*Section Styles*/
+article{
+  max-width:80vw;
+  background-color:hsla(206, 16%, 76%, 1);
+  border-radius:5px;
+  border:3px solid hsla(205, 82%, 16%, 1);
+  padding:10px;
+  margin:4px 10vw 12px 10vw;
+}
+
+section{
+  max-width:75vw;
+  background-color:hsla(206, 56%, 76%, 1);
+  border-radius:5px;
+  border:3px solid hsla(205, 82%, 16%, 1);
+  padding:5px;
+  margin:2px 1vw 6px 1vw;
+}
+
+hr{border:1px solid black}
+section.poem{text-align:center;}
+mark{cursor:help; background-color:hsla(216, 85%, 91%, 1);}
+span.sqrt{text-decoration:overline;}
+/*Section Styles*/
+
+
+/*Paragraph Styles*/
+p{
+  text-indent:16px;
+  text-align:justify;
+  text-justify:inter-word;}
+}
+p.flat{text-indent:0px;}
+/*Paragraph Styles*/
+
+
+/*Column Styles*/
+.row:after {	/* Columns are individually defined using "column" class and "style" attribute. Clear floats after the columns */
+  content: "";
+  display: table;
+  clear: both;
+}
+/*Column Styles*/
+
+
+/*Image Styles*/
+img{
+  border-radius:10%;
+  display: block;
+}
+
+img.float_right{margin-right: auto;}
+img.float_left{margin-left: auto;}
+/*Image Styles*/
+
+
+/*Table and List Styles*/
+table, th, td{
+  border:3px solid hsla(205, 82%, 16%, 1);
+  background-color:hsla(216, 85%, 76%, 0.5);
+  border-collapse:collapse;
+  border-radius:5px;
+  border-spacing:5px;
+  padding:5px;
+  text-align:center;
+  margin:auto;
+}
+
+ul{
+  list-style-type:circle;
+  background-color:hsla(206, 16%, 76%, 1);
+  border:3px solid hsla(205, 82%, 16%, 1);
+  border-collapse:collapse;
+  border-radius:5px;
+  border-spacing:5px;
+  padding:5px;
+  text-align:left;
+  min-width:25vw;
+  max-width:60vw;
+  margin:auto;
+}
+
+table.wide, ul.wide, ol.wide{
+  min-width:25vw;
+  max-width:60vw;
+}
+
+caption, th{font-weight:bold;}
+th{background-color:hsla(216, 85%, 66%, 1);}
+tr:nth-child(even){background-color:hsla(216, 85%, 76%, 1);}
+tr:nth-child(odd){background-color:hsla(216, 85%, 86%, 1);}
+li:nth-child(even){background-color:hsla(216, 85%, 76%, 1);}
+li:nth-child(odd){background-color:hsla(216, 85%, 86%, 1);}
+/*Table and List Styles*/
+
+
+/*Link Styles*/
+a:link, a:visited{
+  background-color:hsla(205, 66%, 62%, 1);
+  border:3px solid hsla(205, 76%, 30%, 1);
+  color:hsla(205, 76%, 20%, 1);
+  font-weight:bold;
+  padding:7px 12px;
+  text-align:center;
+  text-decoration:none;
+  display:inline-block;
+}
+
+a:hover, a:active{
+  background-color:hsla(205, 76%, 30%, 1);
+  border:3px solid hsla(205, 66%, 62%, 1);
+  color:hsla(205, 66%, 65%, 0.8);
+}
+/*Link Styles*/
+
+
+/*Header Style*/
+header.header{
+  overflow: hidden;
+  background-color:hsla(206, 16%, 76%, 1);  padding: 20px 10px;
+  border-bottom:3px solid hsla(205, 82%, 16%, 1);
+  margin-bottom:10px;
+}
+
+.float_right{
+  float:right;
+}
+
+a.h_link{
+  min-width:6vw;
+  max-width:12vw;
+  float:left;
+  font-size:24px;
+  text-align:center;
+  border:0px solid black;
+}
+/*Header Style*/
